@@ -46,9 +46,12 @@
     <Compile Include="Abstract\Employee.cs" />
     <Compile Include="Implementation\ContractEmployee.cs" />
     <Compile Include="Implementation\PermanentEmployee.cs" />
+    <Compile Include="Implementation\PrinterInkJet.cs" />
+    <Compile Include="Implementation\PrinterLaserJet.cs" />
     <Compile Include="Implementation\TempEmployee.cs" />
     <Compile Include="Interface\IEmployee.cs" />
     <Compile Include="Interface\IEmployeeBouns.cs" />
+    <Compile Include="Interface\IPrintTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
