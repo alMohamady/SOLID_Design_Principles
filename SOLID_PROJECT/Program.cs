@@ -1,4 +1,6 @@
-﻿using SOLID_PROJECT.Implementation;
+﻿using SOLID_PROJECT.Abstract;
+using SOLID_PROJECT.Classes;
+using SOLID_PROJECT.Implementation;
 using SOLID_PROJECT.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,9 +15,11 @@ namespace SOLID_PROJECT
         static void Main(string[] args)
         {
 
+            IWorker carpenter = new Carpenter();
+            IWorker plumber = new Plumber();
 
-
-
+            carpenter.DoWork();
+            plumber.DoWork(); 
 
 
 

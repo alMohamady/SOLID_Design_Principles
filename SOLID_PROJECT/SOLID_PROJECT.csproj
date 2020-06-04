@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\Employee.cs" />
+    <Compile Include="Abstract\IWorker.cs" />
+    <Compile Include="Classes\Carpenter.cs" />
+    <Compile Include="Classes\Plumber.cs" />
     <Compile Include="Implementation\ContractEmployee.cs" />
     <Compile Include="Implementation\PermanentEmployee.cs" />
     <Compile Include="Implementation\PrinterInkJet.cs" />
